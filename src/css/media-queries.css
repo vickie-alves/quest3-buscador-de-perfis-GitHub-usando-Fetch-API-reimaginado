@@ -1,0 +1,139 @@
+@media (max-width: 128rem) {
+
+  .container .dados-perfil {
+    padding: 3rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a {
+    min-height: 15rem;
+    margin: 0.75rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a h3 {
+    font-size: 1.5rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a p {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+@media (max-width: 76.8rem) {
+  .container {
+    width: 80%;
+  }
+
+  .container .dados-perfil {
+    padding: 1rem;
+  }
+
+  .container .dados-perfil .info .dados {
+    padding: 2rem;
+  }
+
+  .container .dados-perfil .info h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .container .dados-perfil .info .dados p {
+    font-size: 1.6rem;  
+    line-height: 2rem;
+  }
+
+  .container .dados-perfil .repositorios ul li {
+    width: 33%;
+  }
+
+  .container .dados-perfil .repositorios ul li {
+    min-height: 14rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a h3 {
+    font-size: 1.6rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a p {
+    font-size: 1.4rem;
+  }
+
+  .container .eventos .lista-eventos .titulo-tabela tr th {
+    font-size: 1.9rem;
+  }
+
+  .container .eventos .lista-eventos .cabecalho-tabela tr th {
+    font-size: 1.7rem;
+  }
+
+  .container .eventos .lista-eventos .itens-tabela tr td {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+
+
+@media (max-width: 42.5rem) {
+  main {
+    padding: 15% 0;    
+  }
+
+  .container header #barra-pesquisa {
+    width: 26rem;
+    margin: 0 auto;
+  }
+
+  .container .dados-perfil .info img {
+    margin-bottom: 2rem;
+  }
+
+  .container .dados-perfil {
+    padding: 0.5rem;  
+  }
+
+  .container .dados-perfil .info .dados {
+    width: 80%;
+  }
+
+  .container .dados-perfil .info img {
+    border: 0.7rem solid var(--corBaseDetalhes);
+  }
+
+  .container .dados-perfil .info .foto-disponivel {
+    width: 80%;
+  }
+
+  .container .dados-perfil .repositorios ul li {
+    width: 50%;
+  }
+
+  .container .dados-perfil .repositorios ul li a {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    min-height: 13rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a h3 {
+    font-size: 1.4rem;
+  }
+
+  .container .dados-perfil .repositorios ul li a p {
+    font-size: 1.3rem;
+  }
+
+  .container .eventos .lista-eventos .titulo-tabela tr th {
+    font-size: 1.7rem;
+    padding: 0.5rem;
+  }
+
+  .container .eventos .lista-eventos .cabecalho-tabela tr th {
+    font-size: 1.5rem;
+  }
+
+  .container .eventos .lista-eventos .itens-tabela tr td {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+  }
+}

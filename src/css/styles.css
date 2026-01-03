@@ -1,0 +1,222 @@
+/* Fontes */
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+
+/* Variáveis */
+
+* {
+    --corBaseClara: #ffffff;
+    --corBaseEscura: #24292e;
+    --corBaseDetalhes: hotpink;
+    --corBaseBordas: grey;
+}
+
+
+/* Layout da Página */
+
+body {
+  background-color: var(--corBaseEscura);
+  font-family: "Kumbh Sans", sans-serif;  
+  text-align: center;    
+  padding-bottom: 10rem;
+}
+
+main {
+  display: flex;  
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0 0;
+}
+
+.devicon-github-original {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  color: var(--corBaseClara);
+}
+
+.container {
+  width: 60%;
+  max-width: 96rem; /* quando chegar em 980px para de aumentar */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
+  background-color: var(--corBaseClara);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.container header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.container header #barra-pesquisa, .container header #botao-pesquisa {
+  font-size: 1.7rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border: 0.1rem solid grey;
+}
+
+.container header #barra-pesquisa {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.container header #botao-pesquisa {
+  width: 20rem;
+  margin: 2rem auto 0; 
+  cursor: pointer;
+}
+
+.container header #botao-pesquisa:hover {
+  background-color: var(--corBaseDetalhes);
+  color: var(--corBaseClara);
+  border-color: var(--corBaseClara);
+}
+
+
+
+/* Usuários */
+
+.container .dados-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;  
+}
+
+.container .dados-perfil .info {
+  display: flex;  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.container .dados-perfil .info .dados {
+  padding: 4rem;
+  width: 50%;
+}
+
+.container .dados-perfil .info img {
+  width: 50%;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  border: 1rem solid var(--corBaseDetalhes);
+}
+
+.container .dados-perfil .info .foto-disponivel {
+  width: 50%;
+}
+
+.container .dados-perfil .info .foto-indisponivel {
+  width: 30%;
+}
+
+.container .dados-perfil .info h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.container .dados-perfil .info p {
+  font-size: 1.6rem;  
+  font-weight: 400;
+  line-height: 2.3rem;
+  padding: 0.5rem;
+}
+
+
+
+/* Repositórios */
+
+.container .dados-perfil .repositorios h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container .dados-perfil .repositorios ul {
+  color: var(--corBaseEscura);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .dados-perfil .repositorios ul li {
+  width: 25%;
+}
+
+.container .dados-perfil .repositorios ul li a {
+  color: var(--corBaseEscura);
+  padding: 1rem;
+  border: 0.1rem solid var(--corBaseBordas);
+  margin: 1rem;
+  min-height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.7rem;
+  transition: 0.3s ease-in-out;
+}
+
+.container .dados-perfil .repositorios ul li a:hover {
+  background-color: var(--corBaseDetalhes);
+  color: var(--corBaseClara);
+}
+
+.container .dados-perfil .repositorios ul li a h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+
+.container .dados-perfil .repositorios ul li a p {
+  font-size: 1.2rem;
+}
+
+
+
+/* Eventos */
+
+.lista-eventos {
+  margin-top: 3rem;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 0.1rem solid var(--corBaseBordas);
+}
+
+.container .eventos .lista-eventos thead tr th {
+  width: 50%;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.container .eventos .lista-eventos .titulo-tabela tr th {
+  font-size: 1.8rem;
+}
+
+.container .eventos .lista-eventos .cabecalho-tabela tr th {
+  font-size: 1.6rem;
+}
+
+.container .eventos .lista-eventos .itens-tabela tr td {
+  font-size: 1.4rem;
+  padding: 1.4rem;
+}
