@@ -32,7 +32,7 @@ Foi proposta a continuação do design apresentado em aula, organizando a visual
 
 ## Links
 
-* **Live Site URL:** (Adicionar o link da sua página hospedada (GitHub Pages, Vercel, Netlify, etc.))
+* **Live Site URL:** https://vickie-alves.github.io/quest3-buscador-de-perfis-GitHub-usando-Fetch-API-reimaginado/
 
 ## Autor
 
